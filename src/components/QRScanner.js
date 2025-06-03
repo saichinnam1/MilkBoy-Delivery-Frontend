@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import './QRScanner.css';
 
-const apiUrl = 'https://milkboy-backend-<your-username>.koyeb.app/api';
+const apiUrl = 'https://milkboy-backend-2.onrender.com/api';
 
 function QRScanner() {
   const [customer, setCustomer] = useState(null);
