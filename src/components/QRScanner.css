@@ -1,0 +1,16 @@
+.qr-scanner-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.qr-video::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid #2a5298;
+  border-radius: 12px;
+  pointer-events: none;
+}
