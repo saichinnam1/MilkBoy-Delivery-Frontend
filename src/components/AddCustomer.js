@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-const apiUrl = 'https://milkboy-backend-<your-username>.koyeb.app/api';
+const apiUrl = 'https://milkboy-backend-2.onrender.com/api';
 
 function AddCustomer() {
   const [name, setName] = useState('');
